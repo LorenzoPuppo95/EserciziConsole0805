@@ -155,7 +155,7 @@ namespace EserciziConsole0805
                     }
                     else
                     {
-                        Console.WriteLine("Voto non valido. Inserisci un numero intero compreso tra 1 e 100:");
+                        Console.WriteLine("Voto non valido: non numerico. Inserisci un numero intero compreso tra 1 e 100:");
                         marksInput[i] = Console.ReadLine() ?? "0";
                     }
                 }
